@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+venv/
+.venv/
+node_modules/
+dist/
+.env
+.DS_Store
+# ML artifacts (regenerate with the training scripts)
+ml/data/raw/*
+!ml/data/raw/README.md
+ml/models/*.pth
+ml/models/class_names.json
+ml/outputs/*
+!ml/outputs/.gitkeep

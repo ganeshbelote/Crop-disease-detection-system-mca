@@ -1,0 +1,124 @@
+{
+  "disclaimer": "This system provides an informational, model-based prediction only. It is NOT a substitute for diagnosis by a qualified agricultural extension officer, plant pathologist, or agronomist. Always confirm before taking action that could affect a real crop.",
+  "diseases": {
+    "Tomato_Healthy": {
+      "disease_name": "Healthy",
+      "crop": "Tomato",
+      "description": "The leaf shows no visible signs of disease. Coloration and leaf structure appear typical of a healthy tomato plant.",
+      "symptoms": [
+        "Uniform green coloration",
+        "No necrotic (dead/brown) spots",
+        "No wilting or curling"
+      ],
+      "prevention": [
+        "Maintain consistent watering, avoiding both drought stress and waterlogging",
+        "Ensure adequate spacing for airflow between plants",
+        "Rotate crops each season to reduce soil-borne pathogen buildup"
+      ],
+      "management": [
+        "Continue routine monitoring for early signs of disease",
+        "Maintain balanced fertilization based on soil testing"
+      ]
+    },
+    "Tomato_Early_Blight": {
+      "disease_name": "Early Blight",
+      "crop": "Tomato",
+      "description": "A fungal disease caused by Alternaria solani, typically appearing on older, lower leaves first as concentric \"target-spot\" lesions.",
+      "symptoms": [
+        "Dark brown spots with concentric rings (target-board pattern)",
+        "Yellowing of tissue surrounding the spots",
+        "Lesions starting on older/lower leaves and progressing upward"
+      ],
+      "prevention": [
+        "Avoid overhead irrigation; water at the base of the plant",
+        "Remove and destroy infected plant debris at season end",
+        "Use certified disease-free seed/seedlings",
+        "Practice 2-3 year crop rotation away from tomato/potato"
+      ],
+      "management": [
+        "Remove and dispose of severely infected leaves",
+        "Apply an appropriate labeled fungicide following local agricultural extension guidance",
+        "Improve air circulation via pruning and spacing"
+      ]
+    },
+    "Tomato_Late_Blight": {
+      "disease_name": "Late Blight",
+      "crop": "Tomato",
+      "description": "A fast-spreading disease caused by the oomycete Phytophthora infestans, historically responsible for the Irish potato famine. Can destroy a crop within days under humid conditions.",
+      "symptoms": [
+        "Large, irregularly shaped water-soaked lesions",
+        "Pale green to brown/black patches, often with a fuzzy white mold on leaf undersides in humid conditions",
+        "Rapid wilting and collapse of foliage"
+      ],
+      "prevention": [
+        "Avoid overhead watering and prolonged leaf wetness",
+        "Ensure good drainage and airflow",
+        "Monitor local disease-forecasting alerts, as late blight spreads via wind-borne spores"
+      ],
+      "management": [
+        "Remove and destroy infected plants promptly to limit spread",
+        "Apply a fungicide labeled for late blight as soon as symptoms are noticed",
+        "Avoid working in fields when foliage is wet to reduce spore spread"
+      ]
+    },
+    "Potato_Healthy": {
+      "disease_name": "Healthy",
+      "crop": "Potato",
+      "description": "The leaf shows no visible signs of disease and appears typical of a healthy potato plant.",
+      "symptoms": [
+        "Uniform green coloration",
+        "No necrotic spots or lesions",
+        "Normal leaf shape and turgor"
+      ],
+      "prevention": [
+        "Use certified disease-free seed potatoes",
+        "Maintain proper hilling and drainage",
+        "Rotate crops to avoid continuous potato/tomato cultivation"
+      ],
+      "management": [
+        "Continue routine field monitoring",
+        "Maintain balanced fertilization"
+      ]
+    },
+    "Potato_Early_Blight": {
+      "disease_name": "Early Blight",
+      "crop": "Potato",
+      "description": "A fungal disease caused by Alternaria solani, similar in appearance and cause to tomato early blight, generally affecting older foliage first.",
+      "symptoms": [
+        "Dark brown concentric-ring lesions on older leaves",
+        "Yellow halo around lesions",
+        "Premature leaf drop in severe cases"
+      ],
+      "prevention": [
+        "Avoid water stress, which increases susceptibility",
+        "Practice crop rotation with non-host crops",
+        "Remove volunteer potato/tomato plants and debris between seasons"
+      ],
+      "management": [
+        "Apply a labeled fungicide at first sign of disease",
+        "Remove heavily infected foliage where practical",
+        "Maintain adequate soil fertility, particularly nitrogen"
+      ]
+    },
+    "Potato_Late_Blight": {
+      "disease_name": "Late Blight",
+      "crop": "Potato",
+      "description": "Caused by Phytophthora infestans; one of the most economically destructive potato diseases worldwide, capable of destroying entire fields rapidly under cool, wet conditions.",
+      "symptoms": [
+        "Water-soaked, dark green to brown lesions, often starting at leaf edges/tips",
+        "White fungal growth on the underside of leaves in humid conditions",
+        "Rapid tissue collapse and a distinctive foul odor in advanced infection of tubers"
+      ],
+      "prevention": [
+        "Plant certified, disease-free seed potatoes",
+        "Ensure good field drainage and avoid overhead irrigation",
+        "Destroy cull piles and volunteer potato plants that can harbor the pathogen"
+      ],
+      "management": [
+        "Apply protectant/systemic fungicides proactively during high-risk weather (cool, wet)",
+        "Remove and destroy infected plants immediately",
+        "Avoid harvesting/handling tubers in wet conditions to prevent spread into storage"
+      ]
+    }
+  }
+}

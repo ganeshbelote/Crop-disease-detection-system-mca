@@ -1,0 +1,13 @@
+fastapi
+uvicorn[standard]
+sqlalchemy
+pymysql
+python-dotenv
+python-multipart
+pillow
+numpy
+cryptography
+
+# ML inference dependencies
+torch
+torchvision
