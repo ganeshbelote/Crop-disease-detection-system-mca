@@ -49,7 +49,7 @@ def parse_args():
     p.add_argument("--image-size", type=int, default=config.IMAGE_SIZE)
     p.add_argument("--lr", type=float, default=config.AE_LEARNING_RATE)
     p.add_argument("--noise-std", type=float, default=config.AE_NOISE_STD)
-    p.add_argument("--num-workers", type=int, default=config.NUM_WORKERS)
+    p.add_argument("--num-workers", type=int, default=0)
     p.add_argument("--output", default=config.AUTOENCODER_WEIGHTS_PATH)
     p.add_argument("--outputs-dir", default=config.OUTPUTS_DIR)
     p.add_argument("--seed", type=int, default=config.RANDOM_SEED)

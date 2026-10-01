@@ -13,3 +13,4 @@ ml/models/*.pth
 ml/models/class_names.json
 ml/outputs/*
 !ml/outputs/.gitkeep
+test

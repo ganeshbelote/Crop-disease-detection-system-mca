@@ -167,7 +167,7 @@ def main():
     # num_workers=0 when using the autoencoder wrapper: the AE forward pass
     # inside __getitem__ uses `device`, which does not pickle safely across
     # worker processes for CUDA tensors and is unnecessary overhead on CPU.
-    num_workers = 0 if args.use_autoencoder else args.num_workers
+    num_workers = 0 
 
     train_loader = DataLoader(train_ds, batch_size=args.batch_size, shuffle=True, num_workers=num_workers)
     val_loader = DataLoader(val_ds, batch_size=args.batch_size, shuffle=False, num_workers=num_workers)

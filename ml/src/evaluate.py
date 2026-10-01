@@ -91,7 +91,7 @@ def main():
         num_workers = 0
     else:
         test_ds = ClassificationDataset(test_split, image_size=args.image_size, train=False)
-        num_workers = config.NUM_WORKERS
+        num_workers = 0
 
     test_loader = DataLoader(test_ds, batch_size=args.batch_size, shuffle=False, num_workers=num_workers)
 
